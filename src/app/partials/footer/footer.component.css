@@ -1,0 +1,10 @@
+.footer {
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(30, 31, 30) !important;
+    color: white;
+}

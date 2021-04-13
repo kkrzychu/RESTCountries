@@ -1,0 +1,40 @@
+<div class="mapBackground">
+    <div class="container">
+        <div class="row regionTitle">
+            <div class="flag">
+                <img src="{{ detail.flag }}">
+            </div>
+            <h1>{{ countryName }}</h1>
+        </div> 
+
+        <div class="row" style="padding-top: 10px;">
+            <div class="line">
+                <div class="property"><h3>Capital:</h3></div>
+                <div class="countryName">
+                    <h3>{{ detail.capital }}</h3>
+                </div>
+            </div>
+
+            <div class="line">
+                <div class="property"><h3>Currency:</h3></div>
+                <div class="countryName">
+                    <h3>{{ detail.currencies[0].name }}</h3>
+                </div>
+            </div>
+
+            <div class="line">
+                <div class="property"><h3>Population:</h3></div>
+                <div class="countryName">
+                    <h3>{{ detail.population }}</h3>
+                </div>
+            </div>
+
+            <div class="line">
+                <div class="property"><h3>Area:</h3></div>
+                <div class="countryName">
+                    <h3>{{ detail.area }} &#13218;</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

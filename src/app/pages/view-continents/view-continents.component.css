@@ -1,0 +1,73 @@
+.mapBackground {
+    width: 100%;
+    height: 84vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../../../assets/background.jpg);
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    width: 350px;
+    height: 250px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box h1 {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+
+.america {
+    background-image: url(../../../assets/america.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.europe {
+    background-image: url(../../../assets/europe.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.africa {
+    background-image: url(../../../assets/africa.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.asia {
+    background-image: url(../../../assets/asia.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+.australia {
+    background-image: url(../../../assets/australia.jpg);  
+    background-size: cover;
+    background-position: top center;  
+}

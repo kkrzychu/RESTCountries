@@ -1,0 +1,44 @@
+.navbar {
+    height: 8vh;
+    background-color: rgb(30, 31, 30) !important;
+}
+
+.logo {
+    display: flex;
+}
+.logo img {
+    width: 52px;
+    height: 52px;
+}
+
+.logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Bangers', cursive;
+    font-size: 52px;
+    margin: 0;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+/* MODAL  */
+.row {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.school  {
+    padding-left: 20px;
+}
+
+.desc  {
+    padding-left: 20px;
+}
+
+.education {
+    margin-bottom: 10px;
+}

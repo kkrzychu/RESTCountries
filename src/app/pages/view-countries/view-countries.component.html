@@ -1,0 +1,16 @@
+<div class="mapBackground">
+    <div class="container">
+        <div class="row regionTitle">
+            <h1>{{ region }}</h1>
+        </div>
+
+        <div class="row" style="padding-top: 10px;">
+            <a class="line" [routerLink]="['/details', item.name]" *ngFor="let item of listOfCountires">
+                <div class="flag"><img src="{{ item.flag }}"></div>
+                <div class="countryName">
+                    <h3>{{ item.name }}</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

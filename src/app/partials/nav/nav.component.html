@@ -1,0 +1,71 @@
+<nav class="navbar fixed-top navbar-light bg-light">
+    <div class="container">
+        <div class="back" [ngStyle]="{'visibility':hide ? 'visible' : 'hidden'}">
+            <button class="btn btn-success" routerLink='/{{path}}'>
+                < back </button>
+        </div>
+        <div class="logo">
+            <img src="https://img.icons8.com/wired/64/ffffff/geography.png" />
+            <h1>World</h1>
+        </div>
+        <div class="about">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                About
+            </button>
+        </div>
+    </div>
+
+</nav>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-center">
+                <h5 class="modal-title" id="exampleModalLabel">Krzysztof Michalewicz</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="education">
+                        <h4>Wykształcenie</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="school">
+                        <h6>Uniwersytet Zielonogórski</h6>
+                    </div>
+                    <div class="desc">
+                        <p>Dzienne studia inżynierskie, Informatyka</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="school">
+                        <h6>Uniwersytet Zielonogórski</h6>
+                    </div>
+                    <div class="desc">
+                        <p>Zaoczne studia magisterskie, Informatyka - obecnie</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="education">
+                        <h4>Znajomość technologii</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <ul>
+                        <li>Angular</li>
+                        <li>NodeJS</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
